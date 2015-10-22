@@ -91,6 +91,9 @@
         },
         "cordova-plugin-bluetooth-serial": {
             "PACKAGE_NAME": "com.ionicframework.starter"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "com.ionicframework.starter"
         }
     },
     "dependent_plugins": {}

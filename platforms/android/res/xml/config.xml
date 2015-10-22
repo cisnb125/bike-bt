@@ -20,6 +20,10 @@
         <param name="android-package" value="io.ionic.keyboard.IonicKeyboard" />
         <param name="onload" value="true" />
     </feature>
+    <preference name="webView" value="org.crosswalk.engine.XWalkWebViewEngine" />
+    <preference default="14+" name="xwalkVersion" />
+    <preference default="--disable-pull-to-refresh-effect" name="xwalkCommandLine" />
+    <preference default="embedded" name="xwalkMode" />
     <feature name="BLE">
         <param name="android-package" value="com.megster.cordova.ble.central.BLECentralPlugin" />
     </feature>
@@ -51,7 +55,7 @@
     <author email="hi@ionicframework" href="http://ionicframework.com/">
       Ionic Framework Team
     </author>
-    <content original-src="index.html" src="http://210.206.246.159:8102" />
+    <content original-src="index.html" src="http://172.17.191.216:8100" />
     <access origin="*" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
@@ -59,4 +63,7 @@
     <preference name="BackupWebStorage" value="none" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
+    <preference name="xwalkVersion" value="14+" />
+    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
+    <preference name="xwalkMode" value="embedded" />
 </widget>

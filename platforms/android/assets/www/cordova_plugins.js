@@ -73,7 +73,8 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.0.0",
     "ionic-plugin-keyboard": "1.0.7",
     "com.megster.cordova.ble": "0.1.9",
-    "cordova-plugin-bluetooth-serial": "0.4.4"
+    "cordova-plugin-bluetooth-serial": "0.4.4",
+    "cordova-plugin-crosswalk-webview": "1.3.1"
 }
 // BOTTOM OF METADATA
 });
